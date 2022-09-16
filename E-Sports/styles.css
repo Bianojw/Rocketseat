@@ -29,11 +29,12 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+   background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%); 
     border-radius: 50%;
     padding: 4px;
     display: flex;
     transition: transform .3s;
+    height: 120px;
 }
 
 header div:hover{
@@ -126,6 +127,10 @@ main section:nth-child(2) {
 
 main section:nth-child(3) {
     animation-delay: .7s;
+}
+
+main section:nth-child(4) {
+    animation-delay: 1s;
 }
 
 @keyframes fromTop {
